@@ -1,5 +1,8 @@
+name:
+
 on:
-  push: ["main"]
+  push:
+    branches: ["main"]
 
 jobs:
   slackNotification:
